@@ -67,7 +67,7 @@ include_once("database/index.php");
         <h1>web site body</h1>
     </div>
     <footer id="footer">
-        <div class="social-container">
+        <div id="social-container">
             <ul>
                 <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>

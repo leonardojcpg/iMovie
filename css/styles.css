@@ -1,3 +1,121 @@
-body{
-    background-color: #ccc;
+/* NAVBAR */
+.navbar-brand{
+    position: relative;
+}
+
+#logo{
+    width: 3.125rem;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+#imovie-title{
+    color: #fff;
+    position: absolute;
+    bottom: 0.4rem;
+    font-size: 1.875rem;
+    left: 5.5rem;
+    font-weight: bold;
+}
+
+#main-navbar{
+    background-color: #121212;
+}
+
+#search-form{
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.313rem;
+    width: 50%;
+    margin-left: 9rem;
+}
+
+#search-form .form-control{
+    border: none;
+    width: 90%;
+    box-shadow: none;
+}
+
+#navbar{
+    min-width: 30%;
+}
+
+.navbar-nav{
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    transition: .5s;
+} 
+.navbar-nav .nav-item .nav-link:hover{
+    color: #999;
+} 
+
+.bold{
+    font-weight: bold;
+}
+
+
+/* HOME */
+#main-container{
+    background-color: #000;
+    color: #fff;
+    min-height: 65vh;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 1.25rem;
+}
+
+#social-container ul,
+#footer-links-container ul{
+    list-style: none;
+    padding: 0;
+}
+
+#social-container li,
+#footer-links-container li{
+    display: inline-block;
+    margin: 0 1.25rem;
+}
+
+#social-container li{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
+    transition: .5s;
+    line-height: 3;
+}
+
+#social-container li:hover{
+    background-color: #333;
+}
+
+#social-container a,
+#footer-links-container a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#social-container a,
+#footer-links-container a:hover{
+    text-decoration: none;
+    color: #999;
+    transition: .1s;
+}
+
+#social-container li i{
+    font-size: 1.563rem;
+}
+
+#footer-links-container{
+    margin: 1.875rem 0;
 }
