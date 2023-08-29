@@ -57,6 +57,32 @@
     font-weight: bold;
 }
 
+.msg-container{
+    background-color: #000;
+    padding: 0.938rem;
+}
+
+.msg{
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.625rem;
+    border: 0.063rem solid #000;
+    text-align: center;
+}
+
+.msg.error{
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.msg.success{
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+
 
 /* HOME */
 #main-container{
@@ -64,6 +90,7 @@
     color: #fff;
     min-height: 65vh;
 }
+
 
 /* FOOTER */
 
