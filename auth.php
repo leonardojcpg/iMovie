@@ -47,6 +47,7 @@ require_once("templates/header.php");
                         <input type="confirmPassword" class="form-control" name="confirmPassword" id="confirmPassword"
                             placeholder="Confirm your password">
                     </div>
+                    <input type="submit" class="btn card-btn" value="Register">
                 </form>
             </div>
         </div>
