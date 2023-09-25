@@ -13,7 +13,7 @@
             <li><a href="#">Sign In / Sign Up</a></li>
         </ul>
     </div>
-    <p>&copy; 2023 Leonardo Gomes</p>
+    <p>&copy; 2023 </p>
 </footer>
 </body>
 
